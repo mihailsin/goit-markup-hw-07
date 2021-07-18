@@ -14,8 +14,19 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+.page-footer__logo {
+  display: inline-block;
 
-.logo__footer-span {
+  margin-bottom: 20px;
+
+  color: $accent-color;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.page-footer__logo-span {
   color: $footlogo-span-color;
 }
 .footer-contacts-list__wrapper {
