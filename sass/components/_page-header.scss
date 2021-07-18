@@ -8,11 +8,13 @@
   color: $title-text-color;
 }
 .container {
-  @include centeredFlex;
   width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+.container--flexed {
+  @include centeredFlex;
 }
 .logo {
   display: block;

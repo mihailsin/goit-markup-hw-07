@@ -3,3 +3,10 @@
   justify-content: $main-axis;
   align-items: $secondary-axis;
 }
+
+@mixin wrappedFlex($type: flex, $line-wrapping: wrap) {
+  display: $type;
+  flex-wrap: $line-wrapping;
+  margin-top: -30px;
+  margin-left: -30px;
+}
