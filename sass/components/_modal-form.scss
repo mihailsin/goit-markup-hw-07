@@ -89,7 +89,6 @@
   cursor: pointer;
 }
 .modal-form__check-box {
-  @extend %visually-hidden;
   &:focus + .modal-form__custom-checkbox {
     outline: $accent-color solid 1px;
   }

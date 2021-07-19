@@ -1,9 +1,6 @@
 .exhibition-section {
   @extend %section-paddings;
 }
-.exhibition-section__title {
-  @extend %visually-hidden;
-}
 .filter-list {
   @include centeredFlex;
   margin-bottom: 50px;
