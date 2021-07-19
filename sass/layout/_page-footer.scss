@@ -15,16 +15,9 @@
   padding-right: 15px;
 }
 .page-footer__logo {
-  display: inline-block;
+  padding: 0;
 
   margin-bottom: 20px;
-
-  color: $accent-color;
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 .page-footer__logo-span {
   color: $footlogo-span-color;
@@ -70,28 +63,15 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.join-us-list {
-  display: flex;
-}
-.join-us-list__item {
-  width: 44px;
-  height: 44px;
-}
-.join-us-list__item:not(:first-child) {
-  margin-left: 10px;
-}
-.join-us-list__link {
-  @include centeredFlex;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-
+.social-list__link {
   fill: $whitetext-color;
   background-color: $footer-icon-bcg-color;
 
-  transition: background-color 250ms $transform-timing-function;
-  &:hover,
-  &:focus {
+  transition: fill 250ms $transform-timing-function,
+    background-color 250ms $transform-timing-function;
+
+  &:focus,
+  &:hover {
     background-color: $accent-color;
   }
 }
