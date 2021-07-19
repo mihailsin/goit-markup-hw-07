@@ -576,14 +576,14 @@ a {
   text-transform: uppercase;
 }
 
-.social-list__link {
+.social-list__link--footer-colored {
   fill: #ffffff;
   background-color: rgba(255, 255, 255, 0.1);
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list__link:focus, .social-list__link:hover {
+.social-list__link--footer-colored:focus, .social-list__link--footer-colored:hover {
   background-color: #2196f3;
 }
 
