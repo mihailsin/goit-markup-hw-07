@@ -96,7 +96,7 @@ img {
 }
 
 a {
-  color: var(--title-text-color);
+  color: #212121;
   text-decoration: none;
 }
 
